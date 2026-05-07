@@ -6,7 +6,7 @@ PaperMind is a CLI tool that ingests a folder of academic PDFs and produces a st
 
 Equally importantly, it's a **learning project**: every file in this repo was written to confront one specific concept from the OpenAI Structured Outputs and PydanticAI documentation. If the docs gesture at it, PaperMind makes you feel it.
 
-> _Insert a screenshot of the synthesis output or eval table here. The `rich`-rendered terminal output looks great._
+
 
 ---
 
