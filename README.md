@@ -106,11 +106,6 @@ This repo is built for learning, not production. Things that are deliberately om
 
 That said, the **patterns** here — typed pipelines, `Result`-style failure handling, schema-first design, `ModelRetry` for soft constraints — are the same patterns you'd reach for in a production system.
 
----
-
-## License
-
-MIT — see [LICENSE](LICENSE) (add this if you intend to publish).
 
 ---
 
