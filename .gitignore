@@ -1,0 +1,54 @@
+# ─── Secrets & environment ────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials.json
+secrets.json
+
+# ─── Python ───────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ─── Virtual environments ─────────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ─── Project data (PDFs may be copyrighted; keep local) ──────────
+**/data/papers/*.pdf
+**/data/ground_truth/*.json
+
+# ─── Project artifacts (generated outputs) ────────────────────────
+synthesis.md
+**/synthesis.md
+
+# ─── OS ───────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Editors ──────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ─── Logs ─────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ─── Project-specific (per user request) ─────────────────────────
+project_description.md
